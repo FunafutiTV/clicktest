@@ -17,7 +17,7 @@ export default function Ranking({ clicks, name, highscores }) {
   if (!highscores) return (
     <div className="ranking">
       <h1>Classement</h1>
-      <p>Chargement...</p>
+      <span className="loader"></span>
     </div>
   );
 
