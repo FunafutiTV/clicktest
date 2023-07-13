@@ -11,7 +11,7 @@ export default function Prompt({ setPseudo, timerZero }) {
             alert("Le pseudo contient des caractères invalides")
         } else {
         setPseudo(input);
-        setInput("");
+        setInput(""); // The score will only be saved if the user chooses a valid nickname, which will be saved as pseudo and input will be empty again
         }
     }
 
@@ -20,7 +20,7 @@ export default function Prompt({ setPseudo, timerZero }) {
             <input value={input} onChange={(evt) => setInput(evt.target.value)} type="text"/>
             <button onClick={handleClick}><span>Sauvegarder</span></button>
             <p>Satisfait de votre score ? Entrez votre pseudo pour le sauvegarder dans le classement.</p>
-            </> : null }
+            </> : null } {/* When the timer reaches zero, the prompt component is displayed to let the user save their score */}
         </div>
     )
 }

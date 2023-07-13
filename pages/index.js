@@ -38,7 +38,7 @@ export default function Home({ isConnected }) {
         setHighscores(resultsJson);
       })();
     }, 1500)
-  }, [pseudo])
+  }, [pseudo]) // When the value of pseudo changes, the new highscores list is fetched after waiting 1500 milliseconds so the POST request is done before and the user can see their own score displayed
 
   useEffect(() => {
     if (refresh) {
@@ -48,7 +48,7 @@ export default function Home({ isConnected }) {
       setRefresh(false);
     } else {
       return;
-    }
+    } // Handles the push of the refresh button to set back the states to their initial values, if refresh is true
   }, [refresh])
 
   return (
@@ -68,6 +68,6 @@ export default function Home({ isConnected }) {
           <Ranking name={pseudo} clicks={nbClicks} highscores={highscores}/>
         </div>
       </main>
-    </div>
+    </div> // Creating the User Interface using all the components
   )
 }
