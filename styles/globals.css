@@ -10,6 +10,7 @@ html {
 
 main {
   position: relative;
+  padding-bottom: 2em;
 }
 
 #main-title {
@@ -18,6 +19,7 @@ main {
   letter-spacing: 0.25vw;
   text-align: center;
   font-size: 6.5vw;
+  user-select: none;
 }
 
 #main-container {
@@ -214,7 +216,7 @@ button.hidden {
     width: 30vw;
     height: 30vw;
     top: 9vw;
-    left: 65vw;
+    left: 62.5vw;
     margin: 0 0 0 0;
     padding-bottom: 0;
   }
@@ -224,7 +226,7 @@ button.hidden {
   }
 
   #main-container {
-    margin: 5vw 35vw 0 15vw;
+    margin: 5vw 45vw 0 5vw;
   }
 
   .click-zone, .click-zone-blocked {
