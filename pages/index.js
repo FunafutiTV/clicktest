@@ -6,6 +6,7 @@ import Timer from 'components/timer.js';
 import DisplayCPS from 'components/displaycps.js';
 import Ranking from 'components/ranking.js';
 import Prompt from 'components/prompt.js';
+import Footer from 'components/footer.js';
 
 export async function getServerSideProps(context) {
   try {
@@ -67,6 +68,7 @@ export default function Home({ isConnected }) {
         <div className="ranking-container">
           <Ranking name={pseudo} clicks={nbClicks} highscores={highscores}/>
         </div>
+        <Footer/>
       </main>
     </div> // Creating the User Interface using all the components
   )
