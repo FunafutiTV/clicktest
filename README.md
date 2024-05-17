@@ -1,6 +1,6 @@
 # English
 
-## Country game
+## Clicktest
 
 This is a website that calculates the clicking speed of the user and displays a ranking of the high scores.
 
@@ -29,7 +29,7 @@ Stack :
 
 # Français
 
-## Country game
+## Clicktest
 
 Ce site web permet de calculer la vitesse de clic de l'utilisateur, et affiche un classement des meilleurs scores.
 
