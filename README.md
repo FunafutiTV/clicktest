@@ -2,7 +2,7 @@
 
 ## Clicktest
 
-This is a website that calculates the clicking speed of the user and displays a ranking of the high scores.
+This is a website that calculates the clicking speed of the user and displays a ranking of the high scores. The website is only available in French.
 
 ### 60 seconds demonstration video
 
@@ -31,7 +31,7 @@ Stack :
 
 ## Clicktest
 
-Ce site web permet de calculer la vitesse de clic de l'utilisateur, et affiche un classement des meilleurs scores.
+Ce site web permet de calculer la vitesse de clic de l'utilisateur, et affiche un classement des meilleurs scores. Le site est disponible uniquement en français.
 
 ### Vidéo de démonstration en 60 secondes
 
